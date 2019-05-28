@@ -18,11 +18,13 @@
                     <li class="nav-item">
                         <a class="nav-link" th:text="#{navbar-text-about}" href="/about">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" th:text="#{navbar-text-service}">Services</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="/contact" th:text="#{navbar-text-contact}">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" th:href="@{/login}" th:text="#{navbar-text-login}"></a>
                     </li>
                 </ul>
             </div>
