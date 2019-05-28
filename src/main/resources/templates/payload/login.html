@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="common/head :: common-head"></head>
+<body>
+
+<!-- Navigation -->
+<nav th:replace="common/navbar :: common-navbar"></nav>
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <div class="com-md-12">
+            <div class="jumbotron">
+                <div class="text-center">
+                    <h1 th:text="#{payload.h1.text}"></h1>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div th:replace="common/head :: javascript"></div>
+</body>
+
+</html>
